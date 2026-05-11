@@ -13,8 +13,8 @@ server.port=8081
 
 app.dao.impl=jpa
 
-spring.data.mongodb.uri=mongodb+srv://osoapy:osoapy@cluster0.q36z0pc.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0
+spring.data.mongodb.uri=mongodb+srv://osoapy:<password>@cluster0.q36z0pc.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0
 
-app.mongo.uri=mongodb+srv://osoapy:osoapy@cluster0.q36z0pc.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0
+app.mongo.uri=mongodb+srv://osoapy:<password>@cluster0.q36z0pc.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0
 
 app.mongo.database=demo
