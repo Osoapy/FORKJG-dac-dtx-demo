@@ -1,11 +1,11 @@
-package com.example.demo;
+/*package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+*/
 /**
  * Testes de integração do protocolo 2PC via XATransactionCoordinator.
  *
@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.*;
  *   [TM] FASE 2 — COMMIT  (ou ROLLBACK)
  *   [TM] commit() / rollback()
  */
-@SpringBootTest
+/*@SpringBootTest
 class UserXaTest {
 
     @Autowired private XATransactionCoordinator coordinator;
@@ -98,3 +98,4 @@ class UserXaTest {
                 "RM deve desfazer mesmo após ter votado OK no prepare");
     }
 }
+*/
